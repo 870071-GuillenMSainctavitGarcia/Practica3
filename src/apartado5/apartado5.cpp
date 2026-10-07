@@ -103,6 +103,7 @@ void loop() {
         flagStop=true;
 
     }
+    
      if(respuestaPC=="start" || respuestaPC=="START"){
         Serial.println("Se ha recibido la orden de inicio. Reanudando el envío de datos.");
         flagStop=false;
