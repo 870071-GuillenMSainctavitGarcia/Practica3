@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Clock Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>ESP32 Servidor de Hora</h1>
+  <p>Hora actual: <strong id="timeValue">%TIME%</strong></p>
+  <p>
+    <a href="/reset"><button class="button button2">Reset a 00:00</button></a>
+  </p>
+
+  <script>
+    // Ejecuta la petición AJAX cada 1000 ms (1 segundo)
+    setInterval(function () {
+      fetch('/time')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('timeValue').innerHTML = data;
+        });
+    }, 1000);
+  </script>
+</body>
+</html>

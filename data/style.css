@@ -1,0 +1,5 @@
+html { font-family: Arial; display: inline-block; margin: 0px auto; text-align: center; }
+h1 { color: #0F3376; padding: 2vh; }
+p { font-size: 1.5rem; }
+.button { background-color: #4CAF50; border: none; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; margin: 2px; cursor: pointer; }
+.button2 { background-color: #555555; }
