@@ -20,6 +20,7 @@ Como cada apartado es un código distinto:
 
 ## Estructura del Proyecto
 
+```text
 Practica3/
 ├── data/                      # Archivos estáticos para el servidor Web (SPIFFS)
 │   ├── index.html             # Interfaz de usuario con actualización AJAX
@@ -49,7 +50,7 @@ Practica3/
 │       └── apartado10.cpp
 ├── platformio.ini             # Entornos de compilación y monitorización de PlatformIO
 └── README.md                  # Documentación principal
-
+```
 
 ## APARTADO 1 y 2 (Ping e ICMP)
 
