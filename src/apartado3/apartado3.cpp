@@ -1,7 +1,7 @@
 #include <WiFi.h>
 
 const char* ssid     = "Redmi Note 9";
-const char* password = "dcb324150aa7";
+const char* password = "contrasena";
 
 // IP de tu ordenador (donde estará abierto SocketTest)
 const char* hostPC   = "10.143.42.92"; 

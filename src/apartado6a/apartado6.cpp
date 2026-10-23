@@ -4,7 +4,7 @@
 
 // 1. CONFIGURACIÓN DE RED Y SERVIDOR TCP
 const char* ssid     = "Redmi Note 9";
-const char* password = "dcb324150aa7";
+const char* password = "contrasena";
 
 const char* hostPC   = "10.143.42.92"; // IPv4 de tu PC (SocketTest)
 const uint16_t puerto = 8888;            // Puerto de SocketTest

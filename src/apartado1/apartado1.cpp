@@ -6,7 +6,7 @@ extern "C" {
 
 // Sustituir con datos de vuestra red
 const char* ssid     = "Redmi Note 9";
-const char* password = "dcb324150aa7";
+const char* password = "contrasena";
 
 void medirPing();
 

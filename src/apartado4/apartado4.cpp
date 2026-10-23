@@ -3,7 +3,7 @@
 
 // 1. DATOS DE TU RED WI-FI
 const char* ssid     = "Redmi Note 9";
-const char* password = "dcb324150aa7";
+const char* password = "contrasena";
 
 // 2. DATOS DEL SERVIDOR SOCKETTEST (En la PC)
 const char* hostPC   = "10.143.42.92"; // Cambia por la IPv4 actual de tu PC
